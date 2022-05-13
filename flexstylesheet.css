@@ -6,7 +6,7 @@ div{
   }
 body{
     margin: 0;
-    padding: 0;
+    padding: 10px;
     border: 0;
 }
 .webHead{
@@ -60,6 +60,7 @@ body{
     flex-basis: 100px;
     text-align: center;
     font-size: 20px;
+    border: 1px solid black;
 }
 .totalPriceBox{
     display: flex;
@@ -89,20 +90,23 @@ body{
     align-items: center;
     justify-content: flex-start;
     margin: 10px 15px;
-    flex-grow: 2;
+    flex-grow: 3;
 }
 .listProduct{
     align-items: center;
-    justify-content: flex-start;
     margin: 10px 15px;
     flex-grow: 2;
+}
+.listProductHead{
+    font-size: 24px;
 }
 .list{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
   .item {
-      margin: 10px 0px;
+    margin: 10px 0px;
     width: 25%;
   }
   .imgItem {
@@ -134,4 +138,12 @@ body{
   }
   .itemPrice>div{
     align-items: center;
+  }
+  .nextitem{
+      height: 40px;
+      width: 40px;
+  }
+  .nextitem img{
+      width: 100%;
+      height: 100%;
   }
